@@ -1,0 +1,395 @@
+html, body{
+	height: 100%;
+	margin: 0%;
+}
+
+body {
+	font: 12px Arial, Tahoma, Verdana, sans-serif;
+    margin: 0
+}
+
+/* DIV CONTENEDOR GENERAL */
+#wrapper {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+.header{
+	position: relative;
+	height: 615px;
+	width: 100%;
+}
+
+.videofondo{
+	position:absolute ;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 130%;
+	object-fit: cover;
+}
+
+
+#logoAramon{
+	position: relative;
+	top: 0px;
+	left: 65px;
+	z-index: 2;
+	width: 400px;
+	height: 150px;
+	margin: 125px 0px 0px 0px;
+
+}
+
+
+.h1blanco{
+	font-size: large;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: white;
+	font-size: 40px;
+	position: relative;
+	left: 65px;
+	padding: 20px;
+}
+
+/* DIV CENTRAL
+-----------------------------------------------------------------------------*/
+
+
+#middle {
+	width: 100%;
+    background-color: rgb(255, 255, 255); 
+    overflow: auto;
+	
+}	
+
+.ancho100{
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	
+}
+
+.displaycolumn{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.h1negrocentro{
+	font-size: 50PX;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+#middle2 {
+	padding-top: 7%;
+	display: flex;
+}
+
+
+.parrafonegro{
+	font-size: 23px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black	;
+	text-align: center;
+	width: 70%;
+}
+
+/* LADO IZQUIERDO
+------------------------------------------------------------------------------------*/
+
+#ladoizquierdo{
+	width: 75%;
+	margin-left: 3%;
+	margin-bottom: 7%;
+}
+
+.BIENVENIDOS{
+	font-size: 60PX;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(0, 0, 0);
+	text-align: left
+}
+
+#informacioninicio{
+	font-size: 27px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black	;
+	position:relative;
+	text-align: left;
+	width: 80%;
+}
+
+#content {
+	width: 70%;
+	float: left;
+    background-color: white;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 150px;
+	align-items: center;
+}
+
+#nuestraspistas{
+	font-size: 50PX;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(0, 0, 0);
+	text-align: left;
+	margin-top: 20%;
+}
+
+
+
+.infpistas{
+	font-size: 20px;
+	padding: 0px 50px;
+	display: flex;
+	align-items: center;
+}
+
+#fotomiddlecerler{
+	width: 22Opx;
+	height: 250px;
+	padding: 0px 40px;
+}
+
+.texto2{
+	width: 400px; 
+}
+
+#fotomiddleformigal{
+	width: 22Opx;
+	height: 250px;
+	padding: 0px 40px;
+}
+
+#fotomiddlevaldelinaresr{
+	width: 495px;
+	height: 290px;
+	padding-right: 40px;
+}
+
+
+
+
+
+
+/* ¡ladoderecho
+------------------------------------------------------------------------------*/
+#ladoderecho {
+	width: 15%;	
+	background: #ffffff;
+	padding-right: 5%;
+	padding-bottom: 10%;
+	text-align: right;
+	margin-right: auto;
+}
+
+.todasopiniones{
+	justify-items: right;
+}
+
+#nuestrosvisitantes{
+	font-size: 30px;
+}
+
+
+
+.todasopiniones{
+	font-size: 20px;
+	padding-bottom: 12%;
+	justify-content: right;
+}
+
+ul{
+	list-style-type: none;
+	font-size:20px ;
+}
+
+li{
+	padding-top: 20px;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer{
+    background-color:rgba(237, 232, 232, 0.497);
+    margin-top: auto;
+    padding-bottom: 10%;
+	width: 100%;
+}
+
+.containerfooter{
+    display:flex;
+	padding: 7% 17% 2%; 
+	gap: 100px;
+    position: relative;
+    font-weight: bold ;
+	font-size: 12px;
+}
+
+
+#redes{
+	padding-top: 20px;
+	font-size: 25px;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*PISTAS
+------------------------------------------------------------------------------*/
+
+.middlepistas{
+		width: 90%;
+		background-color: rgb(255, 255, 255); 
+		overflow: auto;
+		padding: 7% 5%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+
+
+.titulocentrado{
+	font-size: 60PX;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(0, 0, 0);
+	text-align: center
+}
+
+.textopistas {
+	text-align:center;
+	color: black;
+	font-size: 30px;
+	padding: 2% 15%;
+}
+
+/*GALERIA
+---------------------------------------------------------------*/
+#tablagaleria{
+	border-collapse: collapse;
+}
+
+
+
+/*TARIFAS TABLA
+----------------------------------------------------------------*/
+
+th{
+	font-size: 25px;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px solid rgb(255, 255, 255);
+	padding: 30px;
+	text-align: center;
+
+}
+
+table{
+	border-collapse: collapse;
+	color: #ffffff;
+}
+
+.color1{
+	padding: 30px;
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid rgb(255, 255, 255);
+	background-color: #7c9f9c;
+	
+}
+
+.color1 td{
+	padding: 30px;
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid rgb(255, 255, 255)
+	
+}
+
+.color2 td{
+	padding: 30px;
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid rgb(255, 255, 255)
+	
+}
+
+
+.color2{
+	background-color: #9ac9c4;
+}
+
+/*FORMULARIO
+---------------------------------------------------*/
+form{
+	font-size: 15px;
+	padding: 7% 5%;
+	
+	
+}
+
+.horizontal{
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	gap: 110px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+
+.horizontalfila2{
+	margin-top: 100px;
+	display: flex;
+	flex-direction:row;
+	align-items:start;
+	gap: 130px;
+}
+
+label{
+	font-weight: bold;
+}
+
+#ultimafila{
+	margin-top: 100px;
+}
+
+/*APRESKI
+----------------------------------------------------------*/
+.textoapreski{
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+#fotomarchica{
+	width: 70%;
+	text-align: center;
+}
+
+.aligncenter{
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 250px;
+}
